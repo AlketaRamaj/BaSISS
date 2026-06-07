@@ -127,3 +127,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Large pre-fitted data files — too large for git (2.4GB + 1GB)
+# See GNN_REPLICATION.md "Data" section for download instructions
+submission/generated_data/data_structures/*.pkl
+submission/generated_data/models/*.pkl
